@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madagascar</title>
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+</head>
+<body>
+  <header>
+    <h1>Madagascar</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/hero-image-large.webp 1x, images/hero-image-large@2x.webp 2x" media="(min-width: 768px)">
+        <source srcset="images/hero-image-small.webp 1x, images/hero-image-small@2x.webp 2x" media="(max-width: 767px)">
+        <img src="images/hero-image-small.webp" alt="Madagascar landscape">
+      </picture>
+    </section>
+
+    <section class="data">
+      <h2>Data</h2>
+      <table>
+        <tr>
+          <td>Area:</td>
+          <td>587,041 sq km</td>
+        </tr>
+        <tr>
+          <td>Population:</td>
+          <td>27,691,018</td>
+        </tr>
+        <tr>
+          <td>Capital:</td>
+          <td>Antananarivo</td>
+        </tr>
+        <tr>
+          <td>Languages:</td>
+          <td>Malagasy, French</td>
+        </tr>
+        <tr>
+          <td>Currency:</td>
+          <td>Malagasy Ariary</td>
+        </tr>
+        <tr>
+          <td>Time Zone:</td>
+          <td>UTC+3</td>
+        </tr>
+        <tr>
+          <td>Calling Code:</td>
+          <td>+261</td>
+        </tr>
+        <tr>
+          <td>Internet TLD:</td>
+          <td>.mg</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="weather">
+      <h2>Weather</h2>
+      <div class="weather-info">
+        <div class="weather-icon">
+          <img src="images/weather-icon.svg" alt="Partly Cloudy">
+        </div>
+        <div class="weather-details">
+          <p>Temperature: 10°C</p>
+          <p>Conditions: Partly Cloudy</p>
+          <p>Wind: 5 km/h</p>
+          <p>Wind Chill: <span id="wind-chill">9.8°C</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;2024 Astonitas Acuña Mario 🌺 Madagascar</p>
+    <p>Last Modification: 02/08/2024 22:47:47</p>
+  </footer>
+
+  <script src="scripts/temples.js"></script>
+</body>
+</html>
