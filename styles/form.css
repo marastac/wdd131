@@ -6,10 +6,10 @@ body {
 }
 
 header, footer {
-    background-color: #6047b4;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+  background-color: #6047b4;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
 
 main {
@@ -67,7 +67,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #333;
+  background-color: #6047b4;
   color: #fff;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -77,5 +77,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #555;
+  background-color: #7858c1;
 }

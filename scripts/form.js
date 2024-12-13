@@ -1,4 +1,3 @@
-// Populate product name options
 const products = [
   {
     id: "fc-1888",
@@ -36,11 +35,8 @@ products.forEach(product => {
   productSelect.appendChild(option);
 });
 
-// Track form submissions
-let reviewCount = localStorage.getItem("reviewCount") || 0;
-localStorage.setItem("reviewCount", ++reviewCount);
-
 
 document.getElementById('currentyear').textContent = new Date().getFullYear();
+
 
 document.getElementById('lastModified').textContent = `Last Modification: ${document.lastModified}`;
