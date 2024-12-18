@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electromovil - Electric Vehicle Revolution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Electromovil</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calculator.html">Savings Calculator</a></li>
+                <li><a href="catalog.html">Vehicle Catalog</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="image-slider">
+        <div class="slide active">
+            <img src="images/ev-highway.jpg" alt="Electric Vehicle on Highway">
+            <div class="hero-overlay">
+                <h1>Discover the Future of Electric Mobility</h1>
+                <p>Transforming Journeys, Caring for the Planet</p>
+                <a href="calculator.html" class="cta-button">Calculate Your Savings</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/ev-charging.jpg" alt="Electric Vehicle Charging">
+            <div class="hero-overlay">
+                <h1>Sustainable Energy Solutions</h1>
+                <p>Powering Your Journey with Clean Technology</p>
+                <a href="catalog.html" class="cta-button">Explore Vehicles</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/ev-city.jpg" alt="Electric Vehicles in City">
+            <div class="hero-overlay">
+                <h1>Urban Mobility Reimagined</h1>
+                <p>Reducing Carbon Footprint, One Ride at a Time</p>
+                <a href="news.html" class="cta-button">Latest News</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> 🌺 Mario Alberto Astonitas 🌺 Peru</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/image-slider.js"></script>
+</body>
+</html>

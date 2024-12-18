@@ -1,0 +1,33 @@
+.references-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.references-list {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.reference-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.reference-item h2 {
+    color: var(--primary-green);
+    margin-bottom: 10px;
+}
+
+.reference-item .source {
+    color: #666;
+    font-style: italic;
+}
+
+.reference-item .description {
+    margin-top: 10px;
+}
